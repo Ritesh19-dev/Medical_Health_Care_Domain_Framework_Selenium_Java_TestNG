@@ -19,7 +19,7 @@ import junit.framework.Assert;
 
 public class TC_EndToEndAppointmentBooking extends BaseClass
 {
-	@Test(groups = {"smokeTest"})
+	@Test(groups = {"smokeTest","regressionTest","sanityTest"})
 	
 	public void EndToEndAppointmentBooking() throws IOException
 	{
