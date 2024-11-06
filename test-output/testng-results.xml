@@ -1,28 +1,187 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-06T14:25:44 IST" name="Default suite" finished-at="2024-11-06T14:25:55 IST" duration-ms="11099">
+  <suite started-at="2024-11-06T15:06:20 IST" name="Suite" finished-at="2024-11-06T15:08:18 IST" duration-ms="117703">
     <groups>
+      <group name="regressionTest">
+        <method signature="TC_AppointmentConfirmation.AppointmentConfirmation()[pri:0, instance:com.MedicalHealthCare.testCases.TC_AppointmentConfirmation@3527942a]" name="AppointmentConfirmation" class="com.MedicalHealthCare.testCases.TC_AppointmentConfirmation"/>
+        <method signature="TC_HomePageToggleOption.homePageToggle()[pri:0, instance:com.MedicalHealthCare.testCases.TC_HomePageToggleOption@1ed6388a]" name="homePageToggle" class="com.MedicalHealthCare.testCases.TC_HomePageToggleOption"/>
+        <method signature="TC_UserProfile.userProfile()[pri:0, instance:com.MedicalHealthCare.testCases.TC_UserProfile@534a5a98]" name="userProfile" class="com.MedicalHealthCare.testCases.TC_UserProfile"/>
+        <method signature="TC_VerfiyHistoryOption.verifyHistoryOption()[pri:0, instance:com.MedicalHealthCare.testCases.TC_VerfiyHistoryOption@4f80542f]" name="verifyHistoryOption" class="com.MedicalHealthCare.testCases.TC_VerfiyHistoryOption"/>
+        <method signature="TC_VerifyHomeOption.verifyHomeOption()[pri:0, instance:com.MedicalHealthCare.testCases.TC_VerifyHomeOption@60bd273d]" name="verifyHomeOption" class="com.MedicalHealthCare.testCases.TC_VerifyHomeOption"/>
+      </group> <!-- regressionTest -->
       <group name="smokeTest">
-        <method signature="TC_userLoginWithInvalidCredentials.userLoginWithInvalidCredentials()[pri:0, instance:com.MedicalHealthCare.testCases.TC_userLoginWithInvalidCredentials@1151e434]" name="userLoginWithInvalidCredentials" class="com.MedicalHealthCare.testCases.TC_userLoginWithInvalidCredentials"/>
+        <method signature="TC_BookAppointment.bookAppointment()[pri:0, instance:com.MedicalHealthCare.testCases.TC_BookAppointment@942a29c]" name="bookAppointment" class="com.MedicalHealthCare.testCases.TC_BookAppointment"/>
+        <method signature="TC_EndToEndAppointmentBooking.EndToEndAppointmentBooking()[pri:0, instance:com.MedicalHealthCare.testCases.TC_EndToEndAppointmentBooking@121314f7]" name="EndToEndAppointmentBooking" class="com.MedicalHealthCare.testCases.TC_EndToEndAppointmentBooking"/>
+        <method signature="TC_HomePage.Homepage()[pri:0, instance:com.MedicalHealthCare.testCases.TC_HomePage@242b836]" name="Homepage" class="com.MedicalHealthCare.testCases.TC_HomePage"/>
+        <method signature="TC_LogOut.logOut()[pri:0, instance:com.MedicalHealthCare.testCases.TC_LogOut@5a45133e]" name="logOut" class="com.MedicalHealthCare.testCases.TC_LogOut"/>
+        <method signature="TC_userLogin.userLoginTest()[pri:0, instance:com.MedicalHealthCare.testCases.TC_userLogin@54e1c68b]" name="userLoginTest" class="com.MedicalHealthCare.testCases.TC_userLogin"/>
+        <method signature="TC_userLoginWithInvalidCredentials.userLoginWithInvalidCredentials()[pri:0, instance:com.MedicalHealthCare.testCases.TC_userLoginWithInvalidCredentials@2d52216b]" name="userLoginWithInvalidCredentials" class="com.MedicalHealthCare.testCases.TC_userLoginWithInvalidCredentials"/>
       </group> <!-- smokeTest -->
+      <group name="sanityTest">
+        <method signature="TC_AppointmentConfirmation.AppointmentConfirmation()[pri:0, instance:com.MedicalHealthCare.testCases.TC_AppointmentConfirmation@3527942a]" name="AppointmentConfirmation" class="com.MedicalHealthCare.testCases.TC_AppointmentConfirmation"/>
+        <method signature="TC_HomePageToggleOption.homePageToggle()[pri:0, instance:com.MedicalHealthCare.testCases.TC_HomePageToggleOption@1ed6388a]" name="homePageToggle" class="com.MedicalHealthCare.testCases.TC_HomePageToggleOption"/>
+        <method signature="TC_UserProfile.userProfile()[pri:0, instance:com.MedicalHealthCare.testCases.TC_UserProfile@534a5a98]" name="userProfile" class="com.MedicalHealthCare.testCases.TC_UserProfile"/>
+        <method signature="TC_VerfiyHistoryOption.verifyHistoryOption()[pri:0, instance:com.MedicalHealthCare.testCases.TC_VerfiyHistoryOption@4f80542f]" name="verifyHistoryOption" class="com.MedicalHealthCare.testCases.TC_VerfiyHistoryOption"/>
+        <method signature="TC_VerifyHomeOption.verifyHomeOption()[pri:0, instance:com.MedicalHealthCare.testCases.TC_VerifyHomeOption@60bd273d]" name="verifyHomeOption" class="com.MedicalHealthCare.testCases.TC_VerifyHomeOption"/>
+      </group> <!-- sanityTest -->
     </groups>
-    <test started-at="2024-11-06T14:25:44 IST" name="Default test" finished-at="2024-11-06T14:25:55 IST" duration-ms="11099">
-      <class name="com.MedicalHealthCare.testCases.TC_userLoginWithInvalidCredentials">
-        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:com.MedicalHealthCare.testCases.TC_userLoginWithInvalidCredentials@1151e434]" started-at="2024-11-06T14:25:44 IST" name="setupBrowser" finished-at="2024-11-06T14:25:53 IST" duration-ms="8733" status="PASS">
+    <test started-at="2024-11-06T15:06:20 IST" name="Test" finished-at="2024-11-06T15:08:18 IST" duration-ms="117703">
+      <class name="com.MedicalHealthCare.testCases.TC_VerfiyHistoryOption">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:com.MedicalHealthCare.testCases.TC_VerfiyHistoryOption@4f80542f]" started-at="2024-11-06T15:07:44 IST" name="setupBrowser" finished-at="2024-11-06T15:07:52 IST" duration-ms="7482" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method signature="userLoginWithInvalidCredentials()[pri:0, instance:com.MedicalHealthCare.testCases.TC_userLoginWithInvalidCredentials@1151e434]" started-at="2024-11-06T14:25:53 IST" name="userLoginWithInvalidCredentials" finished-at="2024-11-06T14:25:54 IST" duration-ms="1502" status="PASS">
+        <test-method signature="verifyHistoryOption()[pri:0, instance:com.MedicalHealthCare.testCases.TC_VerfiyHistoryOption@4f80542f]" started-at="2024-11-06T15:07:52 IST" name="verifyHistoryOption" finished-at="2024-11-06T15:07:54 IST" duration-ms="2385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHistoryOption -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MedicalHealthCare.testCases.TC_VerfiyHistoryOption@4f80542f]" started-at="2024-11-06T15:07:54 IST" name="tearDown" finished-at="2024-11-06T15:07:55 IST" duration-ms="730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MedicalHealthCare.testCases.TC_VerfiyHistoryOption -->
+      <class name="com.MedicalHealthCare.testCases.TC_userLogin">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:com.MedicalHealthCare.testCases.TC_userLogin@54e1c68b]" started-at="2024-11-06T15:06:20 IST" name="setupBrowser" finished-at="2024-11-06T15:06:30 IST" duration-ms="9135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="userLoginTest()[pri:0, instance:com.MedicalHealthCare.testCases.TC_userLogin@54e1c68b]" started-at="2024-11-06T15:06:30 IST" name="userLoginTest" finished-at="2024-11-06T15:06:31 IST" duration-ms="1311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MedicalHealthCare.testCases.TC_userLogin@54e1c68b]" started-at="2024-11-06T15:06:31 IST" name="tearDown" finished-at="2024-11-06T15:06:32 IST" duration-ms="702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MedicalHealthCare.testCases.TC_userLogin -->
+      <class name="com.MedicalHealthCare.testCases.TC_VerifyHomeOption">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:com.MedicalHealthCare.testCases.TC_VerifyHomeOption@60bd273d]" started-at="2024-11-06T15:07:55 IST" name="setupBrowser" finished-at="2024-11-06T15:08:02 IST" duration-ms="7424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="verifyHomeOption()[pri:0, instance:com.MedicalHealthCare.testCases.TC_VerifyHomeOption@60bd273d]" started-at="2024-11-06T15:08:02 IST" name="verifyHomeOption" finished-at="2024-11-06T15:08:05 IST" duration-ms="2765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomeOption -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MedicalHealthCare.testCases.TC_VerifyHomeOption@60bd273d]" started-at="2024-11-06T15:08:05 IST" name="tearDown" finished-at="2024-11-06T15:08:06 IST" duration-ms="705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MedicalHealthCare.testCases.TC_VerifyHomeOption -->
+      <class name="com.MedicalHealthCare.testCases.TC_HomePage">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:com.MedicalHealthCare.testCases.TC_HomePage@242b836]" started-at="2024-11-06T15:06:42 IST" name="setupBrowser" finished-at="2024-11-06T15:06:49 IST" duration-ms="6984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="Homepage()[pri:0, instance:com.MedicalHealthCare.testCases.TC_HomePage@242b836]" started-at="2024-11-06T15:06:49 IST" name="Homepage" finished-at="2024-11-06T15:06:49 IST" duration-ms="843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homepage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MedicalHealthCare.testCases.TC_HomePage@242b836]" started-at="2024-11-06T15:06:49 IST" name="tearDown" finished-at="2024-11-06T15:06:50 IST" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MedicalHealthCare.testCases.TC_HomePage -->
+      <class name="com.MedicalHealthCare.testCases.TC_UserProfile">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:com.MedicalHealthCare.testCases.TC_UserProfile@534a5a98]" started-at="2024-11-06T15:07:33 IST" name="setupBrowser" finished-at="2024-11-06T15:07:40 IST" duration-ms="7012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="userProfile()[pri:0, instance:com.MedicalHealthCare.testCases.TC_UserProfile@534a5a98]" started-at="2024-11-06T15:07:40 IST" name="userProfile" finished-at="2024-11-06T15:07:43 IST" duration-ms="2768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userProfile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MedicalHealthCare.testCases.TC_UserProfile@534a5a98]" started-at="2024-11-06T15:07:43 IST" name="tearDown" finished-at="2024-11-06T15:07:44 IST" duration-ms="798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MedicalHealthCare.testCases.TC_UserProfile -->
+      <class name="com.MedicalHealthCare.testCases.TC_LogOut">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:com.MedicalHealthCare.testCases.TC_LogOut@5a45133e]" started-at="2024-11-06T15:07:23 IST" name="setupBrowser" finished-at="2024-11-06T15:07:30 IST" duration-ms="7186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="logOut()[pri:0, instance:com.MedicalHealthCare.testCases.TC_LogOut@5a45133e]" started-at="2024-11-06T15:07:30 IST" name="logOut" finished-at="2024-11-06T15:07:33 IST" duration-ms="2391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MedicalHealthCare.testCases.TC_LogOut@5a45133e]" started-at="2024-11-06T15:07:33 IST" name="tearDown" finished-at="2024-11-06T15:07:33 IST" duration-ms="691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MedicalHealthCare.testCases.TC_LogOut -->
+      <class name="com.MedicalHealthCare.testCases.TC_userLoginWithInvalidCredentials">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:com.MedicalHealthCare.testCases.TC_userLoginWithInvalidCredentials@2d52216b]" started-at="2024-11-06T15:06:32 IST" name="setupBrowser" finished-at="2024-11-06T15:06:40 IST" duration-ms="7936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="userLoginWithInvalidCredentials()[pri:0, instance:com.MedicalHealthCare.testCases.TC_userLoginWithInvalidCredentials@2d52216b]" started-at="2024-11-06T15:06:40 IST" name="userLoginWithInvalidCredentials" finished-at="2024-11-06T15:06:41 IST" duration-ms="1288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userLoginWithInvalidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MedicalHealthCare.testCases.TC_userLoginWithInvalidCredentials@1151e434]" started-at="2024-11-06T14:25:54 IST" name="tearDown" finished-at="2024-11-06T14:25:55 IST" duration-ms="830" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MedicalHealthCare.testCases.TC_userLoginWithInvalidCredentials@2d52216b]" started-at="2024-11-06T15:06:41 IST" name="tearDown" finished-at="2024-11-06T15:06:42 IST" duration-ms="721" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.MedicalHealthCare.testCases.TC_userLoginWithInvalidCredentials -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.MedicalHealthCare.testCases.TC_AppointmentConfirmation">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:com.MedicalHealthCare.testCases.TC_AppointmentConfirmation@3527942a]" started-at="2024-11-06T15:06:50 IST" name="setupBrowser" finished-at="2024-11-06T15:06:57 IST" duration-ms="6895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="AppointmentConfirmation()[pri:0, instance:com.MedicalHealthCare.testCases.TC_AppointmentConfirmation@3527942a]" started-at="2024-11-06T15:06:57 IST" name="AppointmentConfirmation" finished-at="2024-11-06T15:07:00 IST" duration-ms="2784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppointmentConfirmation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MedicalHealthCare.testCases.TC_AppointmentConfirmation@3527942a]" started-at="2024-11-06T15:07:00 IST" name="tearDown" finished-at="2024-11-06T15:07:00 IST" duration-ms="716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MedicalHealthCare.testCases.TC_AppointmentConfirmation -->
+      <class name="com.MedicalHealthCare.testCases.TC_BookAppointment">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:com.MedicalHealthCare.testCases.TC_BookAppointment@942a29c]" started-at="2024-11-06T15:07:00 IST" name="setupBrowser" finished-at="2024-11-06T15:07:08 IST" duration-ms="7775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="bookAppointment()[pri:0, instance:com.MedicalHealthCare.testCases.TC_BookAppointment@942a29c]" started-at="2024-11-06T15:07:08 IST" name="bookAppointment" finished-at="2024-11-06T15:07:11 IST" duration-ms="3160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookAppointment -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MedicalHealthCare.testCases.TC_BookAppointment@942a29c]" started-at="2024-11-06T15:07:11 IST" name="tearDown" finished-at="2024-11-06T15:07:12 IST" duration-ms="769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MedicalHealthCare.testCases.TC_BookAppointment -->
+      <class name="com.MedicalHealthCare.testCases.TC_EndToEndAppointmentBooking">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:com.MedicalHealthCare.testCases.TC_EndToEndAppointmentBooking@121314f7]" started-at="2024-11-06T15:08:06 IST" name="setupBrowser" finished-at="2024-11-06T15:08:13 IST" duration-ms="7958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="EndToEndAppointmentBooking()[pri:0, instance:com.MedicalHealthCare.testCases.TC_EndToEndAppointmentBooking@121314f7]" started-at="2024-11-06T15:08:13 IST" name="EndToEndAppointmentBooking" finished-at="2024-11-06T15:08:17 IST" duration-ms="3617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndToEndAppointmentBooking -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MedicalHealthCare.testCases.TC_EndToEndAppointmentBooking@121314f7]" started-at="2024-11-06T15:08:17 IST" name="tearDown" finished-at="2024-11-06T15:08:18 IST" duration-ms="804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MedicalHealthCare.testCases.TC_EndToEndAppointmentBooking -->
+      <class name="com.MedicalHealthCare.testCases.TC_HomePageToggleOption">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:com.MedicalHealthCare.testCases.TC_HomePageToggleOption@1ed6388a]" started-at="2024-11-06T15:07:12 IST" name="setupBrowser" finished-at="2024-11-06T15:07:20 IST" duration-ms="8012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="homePageToggle()[pri:0, instance:com.MedicalHealthCare.testCases.TC_HomePageToggleOption@1ed6388a]" started-at="2024-11-06T15:07:20 IST" name="homePageToggle" finished-at="2024-11-06T15:07:22 IST" duration-ms="2285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageToggle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MedicalHealthCare.testCases.TC_HomePageToggleOption@1ed6388a]" started-at="2024-11-06T15:07:22 IST" name="tearDown" finished-at="2024-11-06T15:07:23 IST" duration-ms="725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MedicalHealthCare.testCases.TC_HomePageToggleOption -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
