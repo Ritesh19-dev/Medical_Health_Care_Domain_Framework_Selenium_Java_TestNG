@@ -18,6 +18,8 @@
       <class name="com.MedicalHealthCare.testCases.TC_VerifyHomeOption"/>
       <class name="com.MedicalHealthCare.testCases.TC_VerfiyHistoryOption"/>
       <class name="com.MedicalHealthCare.testCases.TC_HomePageToggleOption"/>
+      <class name="com.MedicalHealthCare.testCases.TC_EndToEndAppointmentBooking"/>
+
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
