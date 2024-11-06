@@ -13,9 +13,9 @@
       <class name="com.MedicalHealthCare.testCases.TC_userLogin"/>
       <class name="com.MedicalHealthCare.testCases.TC_userLoginWithInvalidCredentials.java"/>
       <class name="com.MedicalHealthCare.testCases.TC_LogOut"/>
+      <class name="com.MedicalHealthCare.testCases.TC_EndToEndAppointmentBooking"/>
       <class name="com.MedicalHealthCare.testCases.TC_HomePage"/>
       <class name="com.MedicalHealthCare.testCases.TC_BookAppointment"/>
-      <class name="com.MedicalHealthCare.testCases.TC_EndToEndAppointmentBooking"/>
 
     </classes>
   </test> <!-- Test -->
