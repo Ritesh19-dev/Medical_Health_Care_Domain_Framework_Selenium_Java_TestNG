@@ -17,6 +17,7 @@
       <class name="com.MedicalHealthCare.testCases.TC_UserProfile"/>
       <class name="com.MedicalHealthCare.testCases.TC_VerfiyHistoryOption"/>
       <class name="com.MedicalHealthCare.testCases.TC_VerifyHomeOption"/>
+      <class name="com.MedicalHealthCare.testCases.TC_EndToEndAppointmentBooking"/>
 
       
     </classes>
