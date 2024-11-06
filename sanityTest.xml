@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+  <test thread-count="5" name="Test">
+  
+  <groups>
+	<run>
+		
+		<include name="sanityTest"></include>
+	</run>
+</groups>
+    <classes>
+      <class name="com.MedicalHealthCare.testCases.TC_AppointmentConfirmation"/>
+      <class name="com.MedicalHealthCare.testCases.TC_UserProfile"/>
+      <class name="com.MedicalHealthCare.testCases.BaseClass"/>
+      <class name="com.MedicalHealthCare.testCases.TC_VerifyHomeOption"/>
+      <class name="com.MedicalHealthCare.testCases.TC_VerfiyHistoryOption"/>
+      <class name="com.MedicalHealthCare.testCases.TC_HomePageToggleOption"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
